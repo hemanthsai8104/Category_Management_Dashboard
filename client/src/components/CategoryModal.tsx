@@ -94,7 +94,7 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, onClose, onSucces
                     <h2 className="text-xl font-bold text-gray-800">
                         {editData ? 'Edit Category' : 'Add New Category'}
                     </h2>
-                    <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
+                    <button onClick={onClose} className="text-gray-500 hover:text-gray-700" title="Close">
                         <X size={24} />
                     </button>
                 </div>
